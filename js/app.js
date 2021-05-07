@@ -1,13 +1,10 @@
 $(document).ready(function(){
 
     $('.containerInicio').show();
-    $('.container21').hide();
-    $('.container22').hide();
-    $('.container23').hide();
-    $('.container231').hide();
-    $('.container232').hide();
-    $('.container234').hide();
-    $('.container24').hide();
+    $('.container31').hide();
+    $('.container32').hide();
+    $('.container33').hide();
+    $('.container34').hide();
 
     $('[data-toggle="tooltip"]').tooltip();   
     $('[data-toggle="popover"]').popover();
@@ -15,61 +12,40 @@ $(document).ready(function(){
     $('#autor').attr('data-content',`Obed Peralta => 18680190@cuautla.tecnm.mx | github.com/obed-peralta`);
 
     // Eventos al hacer clic en los menús del NAV
-    $(document).on('click','#link21',function(){
+    $(document).on('click','#link31',function(){
         $('.containerInicio').hide();
-        $('.container21').show();
-        $('.container22').hide();
-        $('.container23').hide();
-        $('.container231').hide();
-        $('.container232').hide();
-        $('.container24').hide();
+        $('.container31').show();
+        $('.container32').hide();
+        $('.container33').hide();
+        $('.container34').hide();
     });
-    $(document).on('click','#link22',function(){
+    $(document).on('click','#link32',function(){
         $('.containerInicio').hide();
-        $('.container21').hide();
-        $('.container22').show();
-        $('.container23').hide();
-        $('.container231').hide();
-        $('.container232').hide();
-        $('.container24').hide();
+        $('.container31').hide();
+        $('.container32').show();
+        $('.container33').hide();
+        $('.container34').hide();
     });
-    $(document).on('click','#link231',function(){
+    $(document).on('click','#link33',function(){
         $('.containerInicio').hide();
-        $('.container21').hide();
-        $('.container22').hide();
-        $('.container23').show();
-        $('.container231').show();
-        $('.container232').hide();
-        $('.container234').hide();
-        $('.container24').hide();
+        $('.container31').hide();
+        $('.container32').hide();
+        $('.container33').show();
+        $('.container34').hide();
     });
-    $(document).on('click','#link232',function(){
+    $(document).on('click','#link34',function(){
         $('.containerInicio').hide();
-        $('.container21').hide();
-        $('.container22').hide();
-        $('.container23').show();
-        $('.container231').hide();
-        $('.container232').show();
-        $('.container234').hide();
-        $('.container24').hide();
-    });
-    $(document).on('click','#link24',function(){
-        $('.containerInicio').hide();
-        $('.container21').hide();
-        $('.container22').hide();
-        $('.container23').hide();
-        $('.container231').hide();
-        $('.container232').hide();
-        $('.container24').show();
+        $('.container31').hide();
+        $('.container32').hide();
+        $('.container33').hide();
+        $('.container34').show();
     });
     $(document).on('click','#u2',function(){
         $('.containerInicio').show();
-        $('.container21').hide();
-        $('.container22').hide();
-        $('.container23').hide();
-        $('.container231').hide();
-        $('.container232').hide();
-        $('.container24').hide();
+        $('.container31').hide();
+        $('.container32').hide();
+        $('.container33').hide();
+        $('.container34').hide();
     });
 
 
